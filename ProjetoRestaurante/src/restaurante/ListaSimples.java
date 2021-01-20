@@ -220,7 +220,7 @@ public class ListaSimples {
 	
 	public void listaInicio(Mesa mesa) {
 		
-		NodoMesa novoNodoMesa = new NodoMesa();
+		NodoMesa novoNodoMesa = new NodoMesa(mesa);
 		
 		if (this.listaVaziaMesa()) {
 			
@@ -237,7 +237,7 @@ public class ListaSimples {
 	
 	public void listaFinal(Mesa mesa) {
 		
-		NodoMesa novoNodoMesa = new NodoMesa();
+		NodoMesa novoNodoMesa = new NodoMesa(mesa);
 		
 		if (this.listaVaziaMesa()) {
 			

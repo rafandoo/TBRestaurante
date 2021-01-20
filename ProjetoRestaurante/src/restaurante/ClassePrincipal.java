@@ -278,7 +278,7 @@ public class ClassePrincipal {
 								
 								System.out.println("\nMesas disponíveis no restaurante: ");
 								System.out.println(buffet.mostrarMesa());
-								
+							
 								System.out.println("\nEscolha uma mesa: ");
 								String m = entrada.next();
 								
